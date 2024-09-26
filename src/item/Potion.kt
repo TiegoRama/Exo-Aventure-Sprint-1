@@ -2,8 +2,8 @@ package item
 
 import personnage.Personnage
 
-class Potion (soin : Int , nom : String, description : String) {
-    fun utiliser(cible : Personnage){
+class Potion (val soin : Int , nom : String, description : String): Item(nom,description) {
+    override fun utiliser(cible : Personnage){
 
     }
 

@@ -7,6 +7,4 @@ class TypeArmes
     val activationCritique : Int )
 {
 
-
-
 }

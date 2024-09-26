@@ -45,6 +45,10 @@ class Combat(
     }
 
     // Méthode pour simuler un tour de combat du monstre
+    /**
+     * On rend les attaques des ennemies de manière aléatoire en important le module Random
+     *
+     */
     fun tourDeMonstre() {
         println("\u001B[31m---Tour de ${monstre.nom} (pv: ${monstre.pointDeVie}) ---")
         //TODO Mission 1.3
